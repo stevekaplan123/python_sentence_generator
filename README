@@ -1,0 +1,6 @@
+This python code takes as input BNF grammar rules, a list of words, and how many sentences you want to generate. It then 
+generates that number of sentences made up of the given possible words and conforming to the given rules of the 
+BNF grammar.
+my_gen.py works only when it is given command-line arguments
+specifically:
+python my_gen.py grammar_file number_of_sentences output_file
