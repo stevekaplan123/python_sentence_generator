@@ -1,0 +1,7 @@
+<START> = [<greeting>] [<question>] [<quantifier> <size>] [<pizza_type> | (<toppings> [(and) <toppings>])] ((pizza) | (pizzas)) [(with) [(half)] <toppings> [[(half)] <toppings>] [(and) <toppings>]] [please];
+<greeting> = (hello) | (hi);
+<question> = (can I please have) | (could I order) | (may I get) | (let me get) | (can I have) | (I'd like) | (I would like) | (I'd like to get) | (I'd like to order) | (can I get) | (I am going to order) | (I want to have) | (I want) | (I am going to have)  | (I would like to order) | (can I order) | (I will order) | (I want to order);
+<quantifier> = (a) | (an) | (one) | (two) | (three) | (four) | (five) | (six) | (seven) | (eight) | (nine) | (ten) | (twenty) | (thirty);
+<size> = (extra large) | (large) | (medium) | (small);
+<pizza_type> = (no cheese) | (hand tossed) | (plain) | (cheese) | (spinach and feta) | (wisconsin six cheese) | (pacific veggie) | (honolulu hawaiian) | (philly cheese steak) | (fiery hawaiian) | (america's favorite feast);
+<toppings> = (cheese) | (extra cheese) | (extra sauce) | (no cheese) | (hot sauce) | (sausage) | (bacon) | (cheddar cheese) | (feta cheese) | (italian sausage) | (banana peppers) | (black olives) | (green peppers) | (jalapeno peppers) | (jalapeno) |(mushrooms) | (pineapple) | (peppers) | (deep dish) | (thin crust) | (tomatoes) | (onions) | (roasted red peppers) | (ham) | (spinach) | (pepperoni) | (beef) | (chicken) | (diced tomatoes);
